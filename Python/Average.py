@@ -7,6 +7,6 @@ sum = tree1 + tree2 + tree3 + tree4 + tree5
 
 print("The sum of the of the five numbers is : " , sum)
 
-res = sum / 5
+res = sum // 5
 
 print("The average is : " , res)
