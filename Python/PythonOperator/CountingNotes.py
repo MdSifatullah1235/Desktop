@@ -2,7 +2,7 @@ amount_input = float(input("Enter a amount within the multiplication of 100, 50 
 print(amount_input)
 
 note1 = amount_input // 100
-note2 = (amount_input % 50) // 100
+note2 = (amount_input % 100) // 50
 note3 = ((amount_input % 100) % 50)  // 10
 
 print("The amount of 100 taka notes" , note1)
