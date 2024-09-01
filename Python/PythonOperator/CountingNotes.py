@@ -1,1 +1,10 @@
-amount_input = input(print("Enter a amount to withdraw within the multiplication 100, 50 or 10 taka : "))
+amount_input = int(input("Enter a amount within the multiplication of 100, 50 or 10 taka to withdraw : "))
+print(amount_input)
+
+note1 = amount_input // 100
+note2 = (amount_input % 50) // 100
+note3 = ((amount_input % 100) % 50)  // 10
+
+print("The amount of 100 taka notes" , note1)
+print("The amount of 50 taka notes" , note2)
+print("The amount of 10 taka notes" , note3)
