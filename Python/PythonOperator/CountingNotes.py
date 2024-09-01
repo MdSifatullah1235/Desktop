@@ -1,0 +1,1 @@
+amount_input = input(print("Enter a amount to withdraw within the multiplication 100, 50 or 10 taka : "))
