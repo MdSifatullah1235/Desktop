@@ -1,10 +1,10 @@
 cost = float(input("Enter the actual product price : "))
-sales = float(input("Enter the sale amount : "))
+sale = float(input("Enter the sale amount : "))
 
-if (sales > cost):
-    amount_1 = sales - cost
+if (sale > cost):
+    amount_1 = sale - cost
     print("The profit is {} ".format(amount_1))
 
 else:
-    amount_2 = cost - sales
+    amount_2 = cost - sale
     print("The loss is {} ".format(amount_2))
