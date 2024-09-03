@@ -1,6 +1,6 @@
 x = int(input("Enter a number"))
 
-if (x < 15):
+if (x < 100):
     print(x , "is lesser than 15")
 
 else:
