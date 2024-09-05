@@ -1,6 +1,6 @@
 a = 10
-b = 12
-c = 16
+b = 10
+c = 8
 
 if a > b and a > c:
     print("a greater than b and c")
