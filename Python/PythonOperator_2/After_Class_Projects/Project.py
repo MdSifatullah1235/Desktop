@@ -14,23 +14,20 @@ elif c > a and c > b:
 elif a == b and a == c:
     print("a, b and c are equals")
 
-elif a == b :
+elif a == b:
     if a > c:
-        print("a and b are equal but c is lower")
-    
+        print("a and b are equal, but c is lower.")
     else:
-        print("a and b are equal but c is lower")
+        print("a and b are equal, but c is greater.")
 
 elif b == c:
     if b > a:
-        print("b and c are equal but a is lower")
-    
+        print("b and c are equal, but a is lower.")
     else:
-        print("b and c are equal but a is greater")
+        print("b and c are equal, but a is greater.")
 
 elif a == c:
     if a > b:
-        print("a and c are equal but b is lower")
-    
+        print("a and c are equal, but b is lower.")
     else:
-        print("a and c are equal but b is greater")
+        print("a and c are equal, but b is greater.")
