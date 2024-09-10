@@ -1,6 +1,6 @@
-a = 10
-b = 10
-c = 10
+a = int(input("Enter a number for the value (a) :"))
+b = int(input("Enter a number for the value (b) :"))
+c = int(input("Enter a number for the value (c) :"))
 
 if a == b and a == c:
     print("a, b, and c are equal.")
