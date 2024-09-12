@@ -16,4 +16,6 @@ else:
     unit_cost = 130 + 162.50 + 526 ((units - 200) * 8.45)
     tax = 75
 
-print(unit_cost + tax)
+total = unit_cost + tax
+
+print("The total electrical bill is :" , total)
