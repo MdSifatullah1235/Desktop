@@ -5,26 +5,23 @@ c = int(input("Enter a number for the value (c): "))
 if a == b and a == c:
     print("a, b, and c are equal")
 
-elif a == b:
-    if a > c:
-        print("a and b are equal, but c is lower")
-        
-    else:
-        print("a and b are equal, but c is greater")
+elif a == b and a > c:
+    print("a and b are equal, but c is lower")
 
-elif b == c:
-    if b > a:
-        print("b and c are equal, but a is lower")
+elif a == b and a < c:
+    print("a and b are equal, but c is greater")
 
-    else:
-        print("b and c are equal, but a is greater")
+elif b == c and b > a:
+    print("b and c are equal, but a is lower")
 
-elif a == c:
-    if a > b:
-        print("a and c are equal, but b is lower")
+elif b == c and b < a:
+    print("b and c are equal, but a is greater")
 
-    else:
-        print("a and c are equal, but b is greater")
+elif a == c and a > b:
+    print("a and c are equal, but b is lower")
+
+elif a == c and a < b:
+    print("a and c are equal, but b is greater")
 
 else:
     if a > b and a > c:
