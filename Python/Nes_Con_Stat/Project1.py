@@ -1,7 +1,7 @@
-n = int(input("Enter a number :"))
+inp = int(input("Enter a number :"))
 
-if n >= 0:
-    if n == 0:
+if inp >= 0:
+    if inp == 0:
         print("The number is zero")
 
     else:
