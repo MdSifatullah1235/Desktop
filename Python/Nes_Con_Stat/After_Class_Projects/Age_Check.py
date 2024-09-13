@@ -1,6 +1,8 @@
 inp = int(input("Enter your age: "))
 
-if inp >= 10:
+if inp <= 0:
+    print("Stop Joking")
+elif inp >= 10:
     if inp > 20:
         print("You're older than 20, you cannot enter")
         if inp >= 40:
