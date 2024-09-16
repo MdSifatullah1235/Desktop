@@ -8,5 +8,8 @@ inp = int(input("Enter a number : "))
 
 sum = 0 
 
-for b in range(inp):
-    print(b + inp)
+for b in range(1 + inp):
+    sum += b
+    print(b)
+
+print(sum)
