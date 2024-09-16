@@ -10,6 +10,7 @@ sum = 0
 
 for b in range(1 + inp):
     sum += b
-    print("Sum =", sum)
+    print("Sum :", sum)
 
-print(sum)
+
+print("Total Sum :", sum)
