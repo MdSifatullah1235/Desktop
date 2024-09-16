@@ -9,4 +9,4 @@ inp = int(input("Enter a number : "))
 sum = 0 
 
 for b in range(inp):
-    print(b + b)
+    print(b + inp)
