@@ -10,6 +10,6 @@ sum = 0
 
 for b in range(1 + inp):
     sum += b
-    print(b)
+    print("Sum =", sum)
 
 print(sum)
