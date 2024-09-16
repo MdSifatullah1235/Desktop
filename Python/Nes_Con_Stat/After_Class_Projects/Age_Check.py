@@ -14,5 +14,5 @@ elif inp >= 10:
 else:
     print("You're younger than 10, you cannot enter")
     
-    if inp > 5:
+    if inp <= 5:
         print("Also, you are a little kid")
