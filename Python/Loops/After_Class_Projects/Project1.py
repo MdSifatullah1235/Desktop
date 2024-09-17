@@ -1,8 +1,9 @@
 inp = int(input("Enter a number : "))
 
-power = 0 
+power = inp ** inp
 
-for b in range(inp ** inp):
+for b in range(inp): 
+    power += b
     print("Power :", power)
 
 
