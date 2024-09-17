@@ -6,4 +6,5 @@ i = 1
 while i <= inp:
     sum = sum + i
     i = i + 1
-    print(sum)
+
+print(sum)
