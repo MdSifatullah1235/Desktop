@@ -1,10 +1,10 @@
-inp = int(input("Enter a number : "))
+base = int(input("Enter the base number: "))
+exponent = int(input("Enter the exponent: "))
 
-power = inp ** inp
+result = 1 
 
-for b in range(inp): 
-    power += b
-    print("Power :", power)
+for i in range(1, exponent + 1):
+    result *= base
+    print("Step {}: {}^{} = {}".format(i, base, i, result))
 
-
-print("Total Power :", power)
+print("Final result: {}^{} = {}".format(base, exponent, result))
