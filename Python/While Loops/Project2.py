@@ -7,7 +7,7 @@ temp = num
 while temp <= 0:
     digit = temp % 10
     sum += digit ** 3
-    temp //= 10
+    temp //= 1
 
 if num == sum:
     print("This is a armstrong number")
