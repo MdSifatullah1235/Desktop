@@ -9,7 +9,4 @@ while i < len(string):
         count += 1
 
     i += 1
-
-else:
-    i += 1
 print("The number of times {} has occured is {}".format(char,count))  
