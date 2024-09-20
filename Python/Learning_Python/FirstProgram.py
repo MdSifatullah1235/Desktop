@@ -1,7 +1,4 @@
-name = "Sifat"
-age = 14
-price = 69.99
-
-print("My ane is ",  name )
-print("My age is ", age)
-print("This bottle of water is worth" , price)
+a = 5
+b = 7
+sum = a + b
+print(sum)
