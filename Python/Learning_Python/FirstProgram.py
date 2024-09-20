@@ -1,2 +1,1 @@
-print("My name is Sifat ")
-print("My age is 14")
+print(20)
