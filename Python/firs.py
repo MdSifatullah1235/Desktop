@@ -1,5 +1,11 @@
-x = 0
-while (x < 100):
-    x += 2
+import turtle
+turtle.Screen().bgcolor("orange")
+turtle.Screen().setup(400,600)
 
-print(x)
+diamond = turtle.Turtle()
+
+for i in range(24):
+    diamond.forward(50)
+    diamond.right(15)
+
+turtle.done()
