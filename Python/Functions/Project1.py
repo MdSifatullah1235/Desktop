@@ -20,10 +20,9 @@ print("a. Add")
 print("b. Subtract")
 print("c. Multiply")
 print("d. Divide")
-
+choice = input("Choose an operation: ")
 nnum1 = float(input("Enter the first number: "))
 nnum2 = float(input("Enter the second number: "))
-choice = input("Choose an operation: ")
 
 if choice == "a":
     res = add(nnum1, nnum2)
