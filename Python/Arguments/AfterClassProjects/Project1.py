@@ -1,14 +1,10 @@
 def shutdown(inp):
-
-    if inp == "yes" or "Yes":
+    if inp == "yes":
         return "Shutting down...."
-    
-    elif inp == "no" or "No":
+    elif inp == "no":
         return "Aborting shut down..."
-    
     else:
-        print("Sorry")
+        return "Sorry, invalid input."
 
-inpu = str(input("Enter yes or no to shutdown:"))
-
+inpu = input("Enter yes or no to shutdown: ")
 print(shutdown(inpu))
