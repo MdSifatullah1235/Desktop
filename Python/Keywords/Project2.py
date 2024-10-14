@@ -1,7 +1,7 @@
 var = 10
 while var > 0:
-    if var == 5:
-        continue
     var = var - 1
-    print("\n The value :", var)
-print("\n Good Bye!")
+    if var == 4:
+        continue
+    print("The value :", var + 1)
+print("Good Bye!")
