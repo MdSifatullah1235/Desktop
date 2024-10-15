@@ -3,11 +3,11 @@ try:
     res = num1 / num2
     print("The Result is", res)
 
-except SyntaxError:
-    print("Comma is Missing")
+except SyntaxError :
+    print("A Comma is Missing")
 
 except ZeroDivisionError:
-    print("A Zero Division Error")
+    print("There Should Be No Zeros")
 
 except:
     print("Wrong Input")
