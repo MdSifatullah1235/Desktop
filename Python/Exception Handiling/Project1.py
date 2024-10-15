@@ -1,5 +1,5 @@
 try:
     number = int(input("Enter a number : "))
 
-except ValueError:
-    print("Exception :", ValueError)
+except ValueError as ex:
+    print("Exception :", ex)
