@@ -1,8 +1,8 @@
 valid = False
-x = int(input("Enter a Number :"))
 try:
+    x = int(input("Enter a Number :"))
     while not valid:
-        while x % 2 == 0:
+        if x % 2 == 0:
             print("bye")
         valid = True
 except ValueError:
