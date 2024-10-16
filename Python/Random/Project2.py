@@ -1,36 +1,52 @@
 import random
-while True:
-    user_choice = input("Enter a choice (rock/paper/scissors) :")
 
-    choices = ["rock","paper","scissors"]
+wins = 0
+loses = 0
+
+while True:
+    user_choice = input("Enter a choice (rock/paper/scissors): ")
+
+    choices = ["rock", "paper", "scissors"]
     sys_choice = random.choice(choices)
-    
-    print(f"You chose {user_choice} System Chose {sys_choice}")
+
+    print(f"You chose {user_choice}. System chose {sys_choice}.")
 
     if user_choice == sys_choice:
-        print(f"You Both Chose {user_choice} It's A Tie")
+        print(f"You both chose {user_choice}. It's a tie!")
 
     elif user_choice == "rock":
         if sys_choice == "scissors":
-            print("Rock Beats Scissors You Win")
+            print("Rock beats Scissors. You win!")
+            wins += 1
         else:
-            print("Paper Beats Rock You Lose")
+            print("Paper beats Rock. You lose!")
+            loses += 1
 
     elif user_choice == "paper":
         if sys_choice == "rock":
-            print("Paper Beats Rock You Win")
+            print("Paper beats Rock. You win!")
+            wins += 1
         else:
-            print("Scissors beat Paper You Lose")
+            print("Scissors beat Paper. You lose!")
+            loses += 1
 
     elif user_choice == "scissors":
         if sys_choice == "paper":
-            print("Scissors Beat Paper You Win")
+            print("Scissors beat Paper. You win!")
+            wins += 1
         else:
-            print("Rock Beats Scissors You Lose")
+            print("Rock beats Scissors. You lose!")
+            loses += 1
 
-    play_again = input("Wanna Play Again (y/n):")
+    else:
+        print("Invalid choice. Please choose rock, paper, or scissors.")
+        continue
+
+    play_again = input("Wanna play again (y/n): ")
     if play_again == "n":
-        print("Oh.. Ok")
+        print("Oh... okay.")
+        print(f"You won {wins} times.")
+        print(f"You lost {loses} times.")
         break
     else:
-        print("Let's Play Again")
+        print("Let's play again!")
