@@ -5,10 +5,10 @@ loses = 0
 
 while True:
     user_choice = input("Enter a choice (rock/paper/scissors): ")
-
+    
+    print("A Secret", sys_choice)
     choices = ["rock", "paper", "scissors"]
     sys_choice = random.choice(choices)
-
     print(f"You chose {user_choice}. System chose {sys_choice}.")
 
     if user_choice == sys_choice:
@@ -47,6 +47,8 @@ while True:
         print("Oh... okay.")
         print(f"You won {wins} times.")
         print(f"You lost {loses} times.")
+        if wins >= 5 and loses == 0:
+            print("You are so lucky")
         break
     else:
         print("Let's play again!")
