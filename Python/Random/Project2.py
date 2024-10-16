@@ -30,4 +30,7 @@ while True:
 
     play_again = input("Wanna Play Again (y/n):")
     if play_again == "n":
+        print("Oh.. Ok")
         break
+    else:
+        print("Let's Play Again")
