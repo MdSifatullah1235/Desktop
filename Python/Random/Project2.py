@@ -5,8 +5,7 @@ loses = 0
 
 while True:
     user_choice = input("Enter a choice (rock/paper/scissors): ")
-    
-    print("A Secret", sys_choice)
+
     choices = ["rock", "paper", "scissors"]
     sys_choice = random.choice(choices)
     print(f"You chose {user_choice}. System chose {sys_choice}.")
